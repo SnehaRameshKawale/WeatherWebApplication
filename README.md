@@ -1,4 +1,4 @@
-<h1>WEATHER APPLICATION</h1>
+<h1>WEATHER WEB APPLICATION</h1>
 # It is an WEATHER APPLICATION which is created uing HTML , CSS , and JS <br>
 # It show the current weather condition of the user location <br>
 # It also provide an feature to search the particular city or 

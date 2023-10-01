@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WeatherApplication</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="stylesheet" media="screen and (max-width:1330px)" href="new.css">
+  <link rel="stylesheet" media="screen and (max-width:1062px)" href="new2.css">
+  <link rel="stylesheet" media="screen and (max-width:531px)" href="new3.css">
+</head>
+
+<body onload="getLocation()">
+  <div class="cardbox">
+    <!--card 1 html-->
+    <div class="card1">
+      <!--Mumbai and In html-->
+      <div class="names">
+        <h2 id="cityname">Mumbai</h2>
+        <h3 id="countryname">IN</h3>
+      </div>
+      <!--time and date html-->
+      <div class="cardbelowsection">
+        <div class="showdate_time">
+          <h2 id="showtime"></h2>
+          <div class="day_date">
+            <h2 id="day">Sunday, </h2>
+            <h2 id="showdate">26-09-2023</h2>
+          </div>
+        </div>
+        <!--degrre html-->
+        <div class="degree">
+          <h1 id="showdegrre">25</h1>
+          <h1 id="degreeimoji">&deg;c</h1>
+        </div>
+      </div>
+    </div>
+    <!--card 2 html -->
+    <div class="card2">
+      <!--emoji and weather html-->
+      <div class="emoji">
+        <img src="./pictures/weathertext.png" alt="sunimg" id="sunemoji">
+        <h2 id="weathercondition">Haze</h2>
+        <hr width="80%" size="2">
+      </div>
+      <!--seacrh section-->
+      <div class="seacrhbar">
+        <input type="text" id="seacrh" placeholder="Enter city name">
+        <div class="seachmoji" id="searchbt">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+      <!--Infor html-->
+      <div class="info">
+        <div class="city_country2">
+          <h3 id="city2name">Mumbai</h3>
+          <h3>, </h3>
+          <h3 id="countr2yname">IN</h3>
+        </div>
+        <hr width="80%" size="1">
+        <!--temprature-->
+        <div class="temp">
+          <h3 class="temprature">Temprature</h3>
+          <h3 id="showtemprature">31</h3>
+          <h3>&deg;c</h3>
+        </div>
+        <hr width="80%" size="1">
+        <!--Humaditiy-->
+        <div class="Humaditiy">
+          <h3 class="humaditiy">Humaditiy</h3>
+          <h3 id="showhumaditiy">21</h3>
+          <h3>%</h3>
+        </div>
+        <!--Wind speed-->
+        <hr width="80%" size="1">
+        <div class="WindSpeed">
+          <h3 class="windspeed">Windspeed</h3>
+          <h3 id="showwindspeed">21</h3>
+          <h3>kph</h3>
+        </div>
+        <!--Visibility-->
+        <hr width="80%" size="1">
+        <div class="Visibility">
+          <h3 class="visibility">Visibility</h3>
+          <h3 id="showvisibility">21</h3>
+          <h3>km</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

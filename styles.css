@@ -1,0 +1,194 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./pictures/weatherback2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.cardbox{
+    width: 53vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+}
+/*card 1 css */
+.cardbox .card1{
+    width: 28vw;
+    height: 80vh;
+    background-image: url(./pictures/weatherback.jpg);
+    background-size: cover;
+    background-position:right;
+    border-right: 1px solid black;
+    border-bottom-left-radius: 16px;
+    border-top-left-radius: 16px;
+    overflow: hidden;
+}
+.cardbox .card1 .names{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+}
+.card1 .cardbelowsection{
+    display: flex;
+}
+.card1 .showdate_time{
+    height: 40vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+}
+.card1 .degree{
+    height: 40vh;
+    width: 8vw;
+    display: flex;
+    justify-content: right;
+    align-items: end;
+}
+.card1 .degree #showdegrre{
+    margin: 10px 0px 20px 5px;
+    font-size: 44px;
+}
+.card1 .degree #degreeimoji{
+    margin: 10px 20px 20px 0px;
+    font-size: 44px;
+}
+.showdate_time .day_date{
+    display: flex;
+}
+.day_date #day{
+    margin: 0px 0px 10px 20px;
+    font-size: 26px;
+}
+.cardbox .card1 .names #cityname{
+    margin:10px 10px 5px;
+    font-size: 42px;
+}
+.cardbox .card1 .names #countryname{
+    margin:0px 10px 10px;
+    font-size: 26px;
+}
+.cardbox .card1 .showdate_time #showdate{
+    margin: 0px 10px 20px 5px;
+    font-size: 22px;
+}
+.cardbox .card1 .showdate_time #showtime{
+    margin: 0px 10px 5px 20px;
+    font-size: 24px;
+}
+/*card 2 css */
+.cardbox .card2{
+    width: 25vw;
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.769);
+    border-bottom-right-radius: 16px;
+    border-top-right-radius: 16px;
+    overflow: hidden;
+}
+.card2 .emoji{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 10px 10px 10px;
+}
+.card2 #sunemoji{
+    height: 110px;
+    width: 110px;
+}
+.card2 .emoji #weathercondition{
+    margin: 10px 0px 10px 0px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.card2 .seacrhbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card2 .seacrhbar #seacrh{
+    width: 220px;
+    height:40px;
+    margin: 20px 5px 10px 10px;
+    background:  rgba(0, 0, 0, 0.74);
+    border-radius: 20px;
+    padding-left: 20px;
+    font-size: large;
+    color: white;
+    border: none;
+}
+.card2 .seacrhbar .seachmoji{
+    background-color: rgba(0, 0, 0, 0.74);
+    height:40px;
+    width: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px 10px 0px;
+    cursor: pointer;
+}
+/*info css*/
+.card2 .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card2 .info .city_country2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px 15px 0px;
+}
+/*temp*/
+.card2 .info .temp{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.card2 .info .temp .temprature{
+    width: 100px;
+    margin-right: 120px;
+}
+/*humadity*/
+.card2 .info .Humaditiy{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.card2 .info .Humaditiy .humaditiy{
+    width: 100px;
+    margin-right: 120px;
+}
+/*Windspeed*/
+.card2 .info .WindSpeed{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.card2 .info .WindSpeed .windspeed{
+    width: 100px;
+    margin-right: 100px;
+}
+/*Visibility*/
+.card2 .info .Visibility{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.card2 .info .Visibility .visibility{
+    width: 100px;
+    margin-right: 110px;
+}

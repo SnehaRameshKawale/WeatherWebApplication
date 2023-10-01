@@ -1,0 +1,33 @@
+.cardbox{
+    width: 100vw;
+    height: 100vh;
+}
+.cardbox .card1{
+    width: 100vw;
+    height: 40vh;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.cardbox .card1 .names{
+    height: 20vh;
+}
+.card1 .showdate_time{
+    height: 20vh;
+    width: 70vw;
+}
+.card1 .degree{
+    height: 20vh;
+    width: 30vw;
+}
+/*card 2 css*/
+.cardbox .card2{
+    width: 100vw;
+    height: 60vh;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.card2 .info .Visibility{
+    margin-bottom: 20px;
+}

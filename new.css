@@ -1,0 +1,29 @@
+.cardbox{
+    width: 70vw;
+    height: 80vh;
+}
+.cardbox .card1{
+    width: 35vw;
+}
+.card1 .showdate_time{
+    width: 27vw;
+}
+.card1 .degree{
+    width: 8vw;
+}
+/*card 2 css*/
+.cardbox .card2{
+    width: 35vw;
+}
+.card2 .info .temp .temprature{
+    margin-right: 165px;
+}
+.card2 .info .Humaditiy .humaditiy{
+    margin-right: 165px;
+}
+.card2 .info .WindSpeed .windspeed{
+    margin-right: 145px;
+}
+.card2 .info .Visibility .visibility{
+    margin-right: 155px;
+}
